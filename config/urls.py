@@ -19,6 +19,10 @@ from django.urls import path
 # Import views from app/main
 from app.main.views import homePage, loginPage
 
+# Import views from app/backend
+from app.backend.views import homePage
+
+
 urlpatterns = [
 
 	# FRONT PAGES
@@ -26,5 +30,6 @@ urlpatterns = [
 	path('login/', loginPage, name="login_page"),
 	
 	# ADMIN PAGES
-    path('admin/', admin.site.urls),
+    # path('admin/', admin.site.urls),
+    path('admin/', homePage, name='home_page_admin'),
 ]

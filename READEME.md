@@ -77,3 +77,8 @@
 	System check identified no issues (0 silenced).
 
 #### 5.2.12 Modified README.md	
+
+#### 5.3.13 Create admin Home page
+
+	(venv3932) PS E:\2021\DJANGO\WINDOWS\clone-amazon-ytb-supercoders\src-renewed> mkdir .\templates\backend
+	(venv3932) PS E:\2021\DJANGO\WINDOWS\clone-amazon-ytb-supercoders\src-renewed> touch .\templates\backend\home.html
