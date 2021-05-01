@@ -16,6 +16,14 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+# Import views from app/main
+from app.main.views import homePage
+
 urlpatterns = [
+
+	# FRONT PAGES
+	path('', homePage, name="home_page"),
+	
+	# ADMIN PAGES
     path('admin/', admin.site.urls),
 ]

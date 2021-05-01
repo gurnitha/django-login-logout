@@ -35,3 +35,14 @@
 
 	(venv3932) PS E:\2021\DJANGO\WINDOWS\clone-amazon-ytb-supercoders\src-renewed> python manage.py check
 	System check identified no issues (0 silenced).
+
+
+## 3. HOME PAGE
+
+#### 3.1.6 Create views, templates, urls and render Home page
+
+	(venv3932) PS E:\2021\DJANGO\WINDOWS\clone-amazon-ytb-supercoders\src-renewed> mkdir templates/main
+	(venv3932) PS E:\2021\DJANGO\WINDOWS\clone-amazon-ytb-supercoders\src-renewed> touch templates/main/home.html
+	(venv3932) PS E:\2021\DJANGO\WINDOWS\clone-amazon-ytb-supercoders\src-renewed> touch templates/base.html
+	(venv3932) PS E:\2021\DJANGO\WINDOWS\clone-amazon-ytb-supercoders\src-renewed> python manage.py check
+	System check identified no issues (0 silenced).
