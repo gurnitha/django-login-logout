@@ -52,3 +52,11 @@
 	(venv3932) PS E:\2021\DJANGO\WINDOWS\clone-amazon-ytb-supercoders\src-renewed> touch .\templates\main\login.html
 
 #### 3.3.8 Modified README.md 
+
+
+## 4. ADMIN / BACKEND
+
+#### 4.1.9 Create app 'app/backend'
+
+(venv3932) PS E:\2021\DJANGO\WINDOWS\clone-amazon-ytb-supercoders\src-renewed> mkdir app/backend
+(venv3932) PS E:\2021\DJANGO\WINDOWS\clone-amazon-ytb-supercoders\src-renewed> python manage.py startapp backend app/backend
