@@ -60,3 +60,8 @@
 
 (venv3932) PS E:\2021\DJANGO\WINDOWS\clone-amazon-ytb-supercoders\src-renewed> mkdir app/backend
 (venv3932) PS E:\2021\DJANGO\WINDOWS\clone-amazon-ytb-supercoders\src-renewed> python manage.py startapp backend app/backend
+
+#### 4.2.10 Install 'backend' to the project 'config' and run check
+
+	(venv3932) PS E:\2021\DJANGO\WINDOWS\clone-amazon-ytb-supercoders\src-renewed> python manage.py check
+	System check identified no issues (0 silenced).
