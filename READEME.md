@@ -66,7 +66,7 @@
 	(venv3932) PS E:\2021\DJANGO\WINDOWS\clone-amazon-ytb-supercoders\src-renewed> python manage.py check
 	System check identified no issues (0 silenced).
 
-## 5. MODELS
+## 5. LOGIN AND LOGOUT PROCESS
 
 #### 5.1.11 Create CustomeUser model, register CustomUser to project's settings.py, and run migrations and createsuperuser
 
@@ -75,3 +75,5 @@
 	(venv3932) PS E:\2021\DJANGO\WINDOWS\clone-amazon-ytb-supercoders\src-renewed> python manage.py createsuperuser
 	(venv3932) PS E:\2021\DJANGO\WINDOWS\clone-amazon-ytb-supercoders\src-renewed> python manage.py check
 	System check identified no issues (0 silenced).
+
+#### 5.2.12 Modified README.md	
