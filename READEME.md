@@ -12,3 +12,10 @@
 
 #### 1.1.1 Create virtual environment and install django
 
+## 2. CREATE DJANGO PROJECT AND DJANGO APP
+
+#### 2.1.2 Create django project 'src-renewed/config'
+
+	(venv3932) PS E:\2021\DJANGO\WINDOWS\clone-amazon-ytb-supercoders> mkdir src-renewed
+	(venv3932) PS E:\2021\DJANGO\WINDOWS\clone-amazon-ytb-supercoders> cd .\src-renewed\
+	(venv3932) PS E:\2021\DJANGO\WINDOWS\clone-amazon-ytb-supercoders\src-renewed> django-admin startproject config . 
