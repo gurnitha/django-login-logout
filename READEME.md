@@ -37,7 +37,7 @@
 	System check identified no issues (0 silenced).
 
 
-## 3. HOME PAGE
+## 3. HOME LOGIN PAGES
 
 #### 3.1.6 Create views, templates, urls and render Home page
 
@@ -50,3 +50,5 @@
 #### 3.2.7 Create Login page and add navbar to link Home and Login pages
 
 	(venv3932) PS E:\2021\DJANGO\WINDOWS\clone-amazon-ytb-supercoders\src-renewed> touch .\templates\main\login.html
+
+#### 3.3.8 Modified README.md 
