@@ -46,3 +46,7 @@
 	(venv3932) PS E:\2021\DJANGO\WINDOWS\clone-amazon-ytb-supercoders\src-renewed> touch templates/base.html
 	(venv3932) PS E:\2021\DJANGO\WINDOWS\clone-amazon-ytb-supercoders\src-renewed> python manage.py check
 	System check identified no issues (0 silenced).
+
+#### 3.2.7 Create Login page and add navbar to link Home and Login pages
+
+	(venv3932) PS E:\2021\DJANGO\WINDOWS\clone-amazon-ytb-supercoders\src-renewed> touch .\templates\main\login.html
