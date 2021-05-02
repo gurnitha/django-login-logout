@@ -7,12 +7,12 @@
 		{% endblock head_title %} | Clone Amazon
 	</title>
 </head>
-<body>
+<body style="width:900px; margin:0 auto; margin-top: 100px;">
 
 	<!-- Navbar -->
 	<nav>
 		<ul>
-			<p><span style="color:red">User logged in:</span> <span style="font-size:24px">{{request.user.username}}</span></p>
+			<p><span style="color:brown;">User logged in:</span> <span style="font-size:14px">{{request.user.username}}</span></p>
 			<li><a href="{% url 'home' %}">Home</a></li>
 			<li><a href="{% url 'admin_home' %}">Admin home</a></li>
 			<li><a href="{% url 'admin_login' %}">Login</a></li>
@@ -24,6 +24,7 @@
 	{% endblock content %}
 
 	<!-- Footer -->
+	<br><br>
 	<footer>
 		<p>Developed by 
 			<span style="border:1px solid red; padding: 0 3px">ING AFTER 60</span> &copy; 2021

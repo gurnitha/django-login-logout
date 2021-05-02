@@ -147,9 +147,12 @@
         modified:   db.sqlite3
         modified:   templates/backend/home.html
 
+#### 5.13.22 Styling the project 
 
-
-
+        modified:   READEME.md
+        modified:   db.sqlite3
+        modified:   templates/backend/login.html
+        modified:   templates/base.html
 
 
 
