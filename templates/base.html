@@ -14,8 +14,9 @@
 		<ul>
 			<p><span style="color:red">User logged in:</span> <span style="font-size:24px">{{request.user.username}}</span></p>
 			<li><a href="{% url 'home' %}">Home</a></li>
-			<li><a href="{% url 'admin_login' %}">Login</a></li>
 			<li><a href="{% url 'admin_home' %}">Admin home</a></li>
+			<li><a href="{% url 'admin_login' %}">Login</a></li>
+			<li><a href="{% url 'admin_logout_process' %}">Logout</a></li>
 		</ul>
 	</nav>
 	<!-- Main content -->

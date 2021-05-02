@@ -119,9 +119,13 @@
         modified:   READEME.md
         modified:   templates/base.html
 
+#### 5.9.18 Logout - Create logout method and url path
 
-
-
+        modified:   READEME.md
+        modified:   app/backend/views.py
+        modified:   config/urls.py
+        modified:   db.sqlite3
+        modified:   templates/base.html
 
 
 
