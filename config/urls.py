@@ -13,23 +13,44 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+# from django.contrib import admin
+# from django.urls import path
+
+# # Import views from app/main
+# from app.main.views import homePage, loginPage
+
+# # Import views from app/backend
+# from app.backend.views import homePageAdmin, adminLoginProcess
+
+
+# urlpatterns = [
+
+# 	# FRONT PAGES
+#     path('', homePage, name="home_page"),
+# 	path('login/', loginPage, name="login_page"),
+	
+# 	# ADMIN PAGES
+#     # path('admin/', admin.site.urls),
+#     path('admin/', homePageAdmin, name='home_admin'),
+#     path('admin/login_process', adminLoginProcess, name='login_process'),
+    
+# ]
+
+# ------------------------------------
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 
-# Import views from app/main
-from app.main.views import homePage, loginPage
+# app/backend
+from app.backend.views import adminLogin
 
-# Import views from app/backend
-from app.backend.views import homePage
-
+# app/main
+from app.main.views import homePage
 
 urlpatterns = [
+    # main's app path
+    path('', homePage, name='home'),
 
-	# FRONT PAGES
-    path('', homePage, name="home_page"),
-	path('login/', loginPage, name="login_page"),
-	
-	# ADMIN PAGES
+    # dashboard's app paths
     # path('admin/', admin.site.urls),
-    path('admin/', homePage, name='home_page_admin'),
+    path('admin/', adminLogin, name='admin_login'),
 ]

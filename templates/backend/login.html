@@ -1,0 +1,37 @@
+<!-- templates/main/login.html -->
+{% extends "base.html" %}
+
+<!-- Block head title -->
+{% block head_title %}
+    Login
+{% endblock head_title %}
+
+<!-- Block content -->
+{% block content %}
+	<div class="container">
+		<h1>Login page</h1>
+		<form
+			method="post"
+			action="">
+			{% csrf_token %}
+			<div>
+				<label for="email">Username</label>
+				<input 
+					type="text" 
+					name="username"
+					placeholder="username">
+			</div>
+			<div>
+				<label for="email">Passwor</label>
+				<input 
+					type="password" 
+					name="password"
+					placeholder="password">
+			</div>
+			<div>
+				<button type="submit">Login</button>
+			</div>
+			
+		</form>
+	</div>    
+{% endblock content %}

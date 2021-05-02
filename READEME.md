@@ -82,3 +82,14 @@
 
 	(venv3932) PS E:\2021\DJANGO\WINDOWS\clone-amazon-ytb-supercoders\src-renewed> mkdir .\templates\backend
 	(venv3932) PS E:\2021\DJANGO\WINDOWS\clone-amazon-ytb-supercoders\src-renewed> touch .\templates\backend\home.html
+
+
+#### 5.4.14 REDIFINED login
+
+        modified:   READEME.md
+        modified:   app/backend/views.py
+        modified:   config/urls.py
+        new file:   templates/backend/login.html
+        new file:   templates/backend/login_process.html
+        modified:   templates/base.html
+        deleted:    templates/main/login.html
