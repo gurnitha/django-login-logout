@@ -108,9 +108,11 @@
         modified:   config/urls.py
         modified:   templates/backend/login.html
 
+#### 5.6.17 Login - Authenticate user login
 
-
-
+        modified:   READEME.md
+        modified:   app/backend/views.py
+        modified:   db.sqlite3
 
 
 
