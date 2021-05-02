@@ -127,9 +127,11 @@
         modified:   db.sqlite3
         modified:   templates/base.html
 
+#### 5.10.19 Limiting the access to admin dashboard, only logged in user could access it
 
-
-
+        modified:   READEME.md
+        modified:   app/backend/views.py
+        modified:   db.sqlite3
 
 
 

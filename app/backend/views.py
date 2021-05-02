@@ -43,13 +43,18 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib import messages
 from django.http import HttpResponseRedirect
 from django.urls import reverse
+'''import login_required module to add conditionl to user login'''
+from django.contrib.auth.decorators import login_required
 
 # Create your views here.
-def adminLogin(request):
-	return render(request, 'backend/login.html')
 
+'''Only loggeg in user can access the admin dashboard'''
+@login_required(login_url='/admin/')
 def adminHome(request):
 	return render(request, 'backend/home.html')
+
+def adminLogin(request):
+	return render(request, 'backend/login.html')
 
 def adminLoginProcess(request):
 	return render(request, 'backend/login_process.html')
@@ -79,3 +84,4 @@ def adminLogoutProcess(request):
 	logout(request)
 	messages.success(request, 'Logged out successfully!')
 	return HttpResponseRedirect(reverse('admin_login'))
+
