@@ -108,14 +108,16 @@
         modified:   config/urls.py
         modified:   templates/backend/login.html
 
-#### 5.6.17 Login - Authenticate user login
+#### 5.7.17 Login - Authenticate user login
 
         modified:   READEME.md
         modified:   app/backend/views.py
         modified:   db.sqlite3
 
+#### 5.8.17 Login - Displaying logged in username on navabar
 
-
+        modified:   READEME.md
+        modified:   templates/base.html
 
 
 
