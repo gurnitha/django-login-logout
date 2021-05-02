@@ -100,3 +100,96 @@
         modified:   app/backend/views.py
         modified:   config/urls.py
         modified:   templates/base.html
+
+#### 5.6.16 Login - Login process with {% csrf_token %} added
+
+        modified:   READEME.md
+        modified:   app/backend/views.py
+        modified:   config/urls.py
+        modified:   templates/backend/login.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

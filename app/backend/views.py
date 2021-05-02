@@ -43,6 +43,11 @@ from django.shortcuts import render
 # Create your views here.
 def adminLogin(request):
 	return render(request, 'backend/login.html')
-	
+
 def adminHome(request):
 	return render(request, 'backend/home.html')
+
+def adminLoginProcess(request):
+	return render(request, 'backend/login_process.html')
+
+

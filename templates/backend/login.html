@@ -1,4 +1,4 @@
-<!-- templates/main/login.html -->
+<!-- templates/backend/login.html -->
 {% extends "base.html" %}
 
 <!-- Block head title -->
@@ -12,7 +12,7 @@
 		<h1>Login page</h1>
 		<form
 			method="post"
-			action="">
+			action="{% url 'login_process' %}">
 			{% csrf_token %}
 			<div>
 				<label for="email">Username</label>

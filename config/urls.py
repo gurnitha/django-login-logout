@@ -43,7 +43,8 @@ from django.urls import path, include
 # app/backend
 from app.backend.views import(
     adminLogin,
-    adminHome)
+    adminHome,
+    adminLoginProcess)
 
 # app/main
 from app.main.views import homePage
@@ -56,4 +57,5 @@ urlpatterns = [
     # path('admin/', admin.site.urls),
     path('admin/home', adminHome, name='admin_home'),
     path('admin/', adminLogin, name='admin_login'),
+    path('admin/login_process', adminLoginProcess, name='login_process'),
 ]
