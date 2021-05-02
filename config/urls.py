@@ -41,7 +41,9 @@ from django.contrib import admin
 from django.urls import path, include
 
 # app/backend
-from app.backend.views import adminLogin
+from app.backend.views import(
+    adminLogin,
+    adminHome)
 
 # app/main
 from app.main.views import homePage
@@ -52,5 +54,6 @@ urlpatterns = [
 
     # dashboard's app paths
     # path('admin/', admin.site.urls),
+    path('admin/home', adminHome, name='admin_home'),
     path('admin/', adminLogin, name='admin_login'),
 ]

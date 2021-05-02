@@ -93,3 +93,10 @@
         new file:   templates/backend/login_process.html
         modified:   templates/base.html
         deleted:    templates/main/login.html
+
+#### 5.5.15 Admin home - link and rendering admin Home page
+
+        modified:   READEME.md
+        modified:   app/backend/views.py
+        modified:   config/urls.py
+        modified:   templates/base.html
