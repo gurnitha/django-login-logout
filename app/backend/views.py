@@ -51,6 +51,7 @@ from django.contrib.auth.decorators import login_required
 '''Only loggeg in user can access the admin dashboard'''
 @login_required(login_url='/admin/')
 def adminHome(request):
+	messages.success(request, 'Logged in successfully!')
 	return render(request, 'backend/home.html')
 
 def adminLogin(request):

@@ -6,9 +6,27 @@
     Home Admin
 {% endblock head_title %}
 
+
 <!-- Block content -->
 {% block content %}
+	<hr>
 	<div class="container">
+		<div class="success-message">
+			<!-- 
+				User messages:  for Login Success -->
+			{% if messages %}
+			<div class="form-group">
+				{% for message in messages %}
+					{% if message.tags == 'success' %}
+						<div class="alert alert-success">
+							<p style="color:blue">{{message}}</p>
+						</div>
+					{% endif %}
+				{% endfor %}
+			</div>
+			{% endif %}
+			<!-- End User messages -->
+		</div>
 		<h1>Admin Home page</h1>
 	</div>    
 {% endblock content %}
